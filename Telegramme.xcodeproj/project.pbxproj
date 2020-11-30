@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092EB5A5256F399F00115803 /* Telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 092EB5A3256F399F00115803 /* Telegramme.xcdatamodeld */; };
+		092EB5AA256F448400115803 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092EB5A9256F448400115803 /* ContactController.swift */; };
+		0970C9FB2574FA0C0068C77A /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970C9FA2574FA0C0068C77A /* FriendController.swift */; };
+		0970CA002574FAA40068C77A /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970C9FF2574FAA40068C77A /* Friend.swift */; };
+		0970CA052574FDEC0068C77A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970CA042574FDEC0068C77A /* Message.swift */; };
+		09B69EFE255D2AA200114FFD /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B69EFD255D2AA200114FFD /* ShowContactViewController.swift */; };
 		09F61314255CC119003104B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61313255CC119003104B8 /* AppDelegate.swift */; };
 		09F61316255CC119003104B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61315255CC119003104B8 /* SceneDelegate.swift */; };
 		09F61318255CC119003104B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61317255CC119003104B8 /* ViewController.swift */; };
@@ -15,6 +21,9 @@
 		09F61320255CC11A003104B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F6131E255CC11A003104B8 /* LaunchScreen.storyboard */; };
 		09F6132B255CC11A003104B8 /* TelegrammeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6132A255CC11A003104B8 /* TelegrammeTests.swift */; };
 		09F61336255CC11A003104B8 /* TelegrammeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61335255CC11A003104B8 /* TelegrammeUITests.swift */; };
+		09F61354255CCE9D003104B8 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F61353255CCE9D003104B8 /* Content.storyboard */; };
+		09F61359255CD363003104B8 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61358255CD363003104B8 /* AddContactViewController.swift */; };
+		09F6135E255CD9B6003104B8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6135D255CD9B6003104B8 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092EB5A4256F399F00115803 /* Telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telegramme.xcdatamodel; sourceTree = "<group>"; };
+		092EB5A9256F448400115803 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		0970C9FA2574FA0C0068C77A /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
+		0970C9FF2574FAA40068C77A /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		0970CA042574FDEC0068C77A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		09B69EFD255D2AA200114FFD /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		09F61310255CC119003104B8 /* Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F61313255CC119003104B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09F61315255CC119003104B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		09F61331255CC11A003104B8 /* TelegrammeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegrammeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F61335255CC11A003104B8 /* TelegrammeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrammeUITests.swift; sourceTree = "<group>"; };
 		09F61337255CC11A003104B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F61353255CCE9D003104B8 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		09F61358255CD363003104B8 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		09F6135D255CD9B6003104B8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +124,15 @@
 				09F6131C255CC11A003104B8 /* Assets.xcassets */,
 				09F6131E255CC11A003104B8 /* LaunchScreen.storyboard */,
 				09F61321255CC11A003104B8 /* Info.plist */,
+				09F61353255CCE9D003104B8 /* Content.storyboard */,
+				09F6135D255CD9B6003104B8 /* Contact.swift */,
+				09F61358255CD363003104B8 /* AddContactViewController.swift */,
+				09B69EFD255D2AA200114FFD /* ShowContactViewController.swift */,
+				092EB5A3256F399F00115803 /* Telegramme.xcdatamodeld */,
+				092EB5A9256F448400115803 /* ContactController.swift */,
+				0970C9FA2574FA0C0068C77A /* FriendController.swift */,
+				0970C9FF2574FAA40068C77A /* Friend.swift */,
+				0970CA042574FDEC0068C77A /* Message.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -231,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F61354255CCE9D003104B8 /* Content.storyboard in Resources */,
 				09F61320255CC11A003104B8 /* LaunchScreen.storyboard in Resources */,
 				09F6131D255CC11A003104B8 /* Assets.xcassets in Resources */,
 				09F6131B255CC119003104B8 /* Main.storyboard in Resources */,
@@ -259,7 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F61318255CC119003104B8 /* ViewController.swift in Sources */,
+				09F61359255CD363003104B8 /* AddContactViewController.swift in Sources */,
+				092EB5AA256F448400115803 /* ContactController.swift in Sources */,
+				09F6135E255CD9B6003104B8 /* Contact.swift in Sources */,
 				09F61314255CC119003104B8 /* AppDelegate.swift in Sources */,
+				09B69EFE255D2AA200114FFD /* ShowContactViewController.swift in Sources */,
+				0970CA052574FDEC0068C77A /* Message.swift in Sources */,
+				092EB5A5256F399F00115803 /* Telegramme.xcdatamodeld in Sources */,
+				0970CA002574FAA40068C77A /* Friend.swift in Sources */,
+				0970C9FB2574FA0C0068C77A /* FriendController.swift in Sources */,
 				09F61316255CC119003104B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +623,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		092EB5A3256F399F00115803 /* Telegramme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				092EB5A4256F399F00115803 /* Telegramme.xcdatamodel */,
+			);
+			currentVersion = 092EB5A4256F399F00115803 /* Telegramme.xcdatamodel */;
+			path = Telegramme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09F61308255CC119003104B8 /* Project object */;
 }
