@@ -83,6 +83,8 @@ class ShowContactViewController: UITableViewController {
 
             let deleteAction = UITableViewRowAction(style: .default, title: "Delete", handler: { (action, indexPath) in
                 self.contactList.remove(at: indexPath.row)
+                
+                //Delete Data from CoreData
                 self.contactController.deleteContact(mobileno: contact.mobileNo)
                 tableView.reloadData()
             })

@@ -20,6 +20,6 @@
     <elements>
         <element name="CDContact" positionX="-63" positionY="-18" width="128" height="74"/>
         <element name="CDFriend" positionX="-122.4193725585938" positionY="101.361083984375" width="128" height="103"/>
-        <element name="CDMessage" positionX="237.7894897460938" positionY="141.819580078125" width="128" height="103"/>
+        <element name="CDMessage" positionX="229.3854370117188" positionY="131.26513671875" width="128" height="103"/>
     </elements>
 </model>

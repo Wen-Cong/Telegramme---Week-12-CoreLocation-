@@ -12,6 +12,8 @@
 		0970C9FB2574FA0C0068C77A /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970C9FA2574FA0C0068C77A /* FriendController.swift */; };
 		0970CA002574FAA40068C77A /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970C9FF2574FAA40068C77A /* Friend.swift */; };
 		0970CA052574FDEC0068C77A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970CA042574FDEC0068C77A /* Message.swift */; };
+		09A2368A25A43B1E004204E7 /* MapViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2368925A43B1E004204E7 /* MapViewController .swift */; };
+		09A2368F25A43C2F004204E7 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2368E25A43C2F004204E7 /* LocationDelegate.swift */; };
 		09B69EFE255D2AA200114FFD /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B69EFD255D2AA200114FFD /* ShowContactViewController.swift */; };
 		09F61314255CC119003104B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61313255CC119003104B8 /* AppDelegate.swift */; };
 		09F61316255CC119003104B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F61315255CC119003104B8 /* SceneDelegate.swift */; };
@@ -49,6 +51,8 @@
 		0970C9FA2574FA0C0068C77A /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		0970C9FF2574FAA40068C77A /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		0970CA042574FDEC0068C77A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		09A2368925A43B1E004204E7 /* MapViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewController .swift"; sourceTree = "<group>"; };
+		09A2368E25A43C2F004204E7 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 		09B69EFD255D2AA200114FFD /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		09F61310255CC119003104B8 /* Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F61313255CC119003104B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				0970C9FA2574FA0C0068C77A /* FriendController.swift */,
 				0970C9FF2574FAA40068C77A /* Friend.swift */,
 				0970CA042574FDEC0068C77A /* Message.swift */,
+				09A2368925A43B1E004204E7 /* MapViewController .swift */,
+				09A2368E25A43C2F004204E7 /* LocationDelegate.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A2368F25A43C2F004204E7 /* LocationDelegate.swift in Sources */,
 				09F61318255CC119003104B8 /* ViewController.swift in Sources */,
 				09F61359255CD363003104B8 /* AddContactViewController.swift in Sources */,
 				092EB5AA256F448400115803 /* ContactController.swift in Sources */,
@@ -294,6 +301,7 @@
 				09B69EFE255D2AA200114FFD /* ShowContactViewController.swift in Sources */,
 				0970CA052574FDEC0068C77A /* Message.swift in Sources */,
 				092EB5A5256F399F00115803 /* Telegramme.xcdatamodeld in Sources */,
+				09A2368A25A43B1E004204E7 /* MapViewController .swift in Sources */,
 				0970CA002574FAA40068C77A /* Friend.swift in Sources */,
 				0970C9FB2574FA0C0068C77A /* FriendController.swift in Sources */,
 				09F61316255CC119003104B8 /* SceneDelegate.swift in Sources */,
